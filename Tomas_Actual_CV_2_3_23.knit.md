@@ -1,0 +1,55 @@
+---
+output: stevetemplates::cv
+geometry: margin=1in
+
+title: "CV"
+author: William Sealy Gosset
+
+jobtitle: "Chief Brewer, Arthur Guinness & Son"
+address: "Guinness Brewery · Park Royal · London NW10 7RR, UK"
+fontawesome: yes
+email: guinness@consumer-care.net
+# github: svmiller
+# twitter: stevenvmiller
+#osf: "Enter 5 digit osf string here"
+phone: "+353 1 408 4800"
+web: guinness.com
+updated: TRUE
+rdateformat: "03 Feb 2023"
+
+keywords: R Markdown, academic CV, template
+
+fontfamily: mathpazo
+fontfamilyoptions: sc, osf
+fontsize: 11pt
+linkcolor: blue
+urlcolor: blue
+---
+
+# Employment
+
+*Arthur Guinness & Son*
+
+Chief Brewer (Park Royal) \hfill 1935-1937
+
+Researcher (Dublin) \hfill 1899-1935
+
+# Education
+
+*New College, Oxford University*, B.A. Chemistry \hfill 1899
+
+
+# Publications
+
+## Books
+
+Pearson, E.S. and John Wishart (eds.). 1943. *"Student's" Collected Papers* London: Biometrika Office.
+
+## Journal Articles
+
+Student. 1938. "Comparison between Balanced and Random Arrangements on Field Plots." *Biometrika* 29(3-4): 363--378.
+
+## Other Publications
+
+
+# References

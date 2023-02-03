@@ -2,7 +2,7 @@
 output: 
   pdf_document:
     latex_engine: pdflatex
-    template: ../svm-latex-cv.tex
+    template:~/Dropbox/miscelanea/svm-r-markdown-templates/svm-latex-cv.tex
 geometry: margin=1in
 
 title: "CV"
@@ -25,3 +25,4 @@ fontfamilyoptions: sc, osf
 fontsize: 11pt
 linkcolor: blue
 urlcolor: blue
+---

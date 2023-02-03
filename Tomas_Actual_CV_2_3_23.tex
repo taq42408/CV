@@ -1,0 +1,176 @@
+% CV ----
+% This is just here so I know exactly what I'm looking at in Rstudio when messing with stuff.
+\documentclass[11pt,]{article}
+\usepackage[sc, osf]{mathpazo}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+
+
+
+
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% Now begins the stuff that I added.
+% ----------------------------------
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\large\bf}
+\subsectionfont{\rmfamily\mdseries\normalsize\scshape}
+
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+
+% Make parskips rather than indent with lists.
+\usepackage{parskip}
+% \usepackage{titlesec}
+% \titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{12pt plus 2pt minus 2pt}
+% \titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{12pt plus 2pt minus 2pt}
+
+% Use fontawesome. Note: you'll need TeXLive 2015. Update.
+\usepackage{fontawesome}
+
+% Fancyhdr, as I tend to do with these personal documents.
+\usepackage{fancyhdr,lastpage}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0.0pt}
+\renewcommand{\footrulewidth}{0.0pt}
+\lhead{}
+\chead{}
+\rhead{}
+\lfoot{}
+\cfoot{\scriptsize  William Sealy Gosset - CV}
+\rfoot{\scriptsize \thepage/{\hypersetup{linkcolor=black}\pageref{LastPage}}}
+
+% Always load hyperref last.
+\usepackage{hyperref}
+\PassOptionsToPackage{usenames,dvipsnames}{color} % color is loaded by hyperref
+
+\hypersetup{unicode=true,
+            pdftitle={William Sealy Gosset:  CV (Curriculum Vitae)},
+            pdfauthor={William Sealy Gosset},
+            pdfkeywords={R Markdown, academic CV, template},
+            colorlinks=true,
+            linkcolor=blue,
+            citecolor=blue,
+            urlcolor=blue,
+            breaklinks=true, bookmarks=true}
+\urlstyle{same}  % don't use monospace font for urls
+
+% Make AP style (kinda) dates for the updated/today field
+
+\usepackage{datetime}
+\newdateformat{apstylekinda}{%
+  \shortmonthname[\THEMONTH]. \THEDAY, \THEYEAR}
+
+% \emph{Updated:} \apstylekinda\today
+% ^ removed from that front bar.
+
+\usepackage{orcidlink}
+%\usepackage{academicons}
+%\definecolor{orcidlogocol}{HTML}{A6CE39}
+% \newcommand{\orcid}[1]{\href{https://orcid.org/#1}{\textcolor[HTML]{A6CE39}{\aiOrcid}}}
+
+\begin{document}
+
+
+\centerline{\huge \bf William Sealy Gosset}
+
+\vspace{2 mm}
+
+\hrule
+
+\vspace{2 mm}
+
+\moveleft.5\hoffset\centerline{Chief Brewer, Arthur Guinness \& Son}
+\moveleft.5\hoffset\centerline{Guinness Brewery · Park Royal · London
+NW10 7RR, UK}
+\moveleft.5\hoffset\centerline{ \faEnvelopeO \hspace{1 mm} \href{mailto:}{\tt \href{mailto:guinness@consumer-care.net}{\nolinkurl{guinness@consumer-care.net}}} \hspace{1 mm}  \faPhone \hspace{1 mm}  +353
+1 408
+4800  \hspace{1 mm}       \faGlobe \hspace{1 mm} \href{http://guinness.com}{\tt guinness.com}    | \emph{Updated:} 03
+Feb 2023}
+
+
+
+\vspace{2 mm}
+
+\hrule
+
+
+
+\hypertarget{employment}{%
+\section{Employment}\label{employment}}
+
+\emph{Arthur Guinness \& Son}
+
+Chief Brewer (Park Royal) \hfill 1935-1937
+
+Researcher (Dublin) \hfill 1899-1935
+
+\hypertarget{education}{%
+\section{Education}\label{education}}
+
+\emph{New College, Oxford University}, B.A. Chemistry \hfill 1899
+
+\hypertarget{publications}{%
+\section{Publications}\label{publications}}
+
+\hypertarget{books}{%
+\subsection{Books}\label{books}}
+
+Pearson, E.S. and John Wishart (eds.). 1943. \emph{``Student's''
+Collected Papers} London: Biometrika Office.
+
+\hypertarget{journal-articles}{%
+\subsection{Journal Articles}\label{journal-articles}}
+
+Student. 1938. ``Comparison between Balanced and Random Arrangements on
+Field Plots.'' \emph{Biometrika} 29(3-4): 363--378.
+
+\hypertarget{other-publications}{%
+\subsection{Other Publications}\label{other-publications}}
+
+\hypertarget{references}{%
+\section{References}\label{references}}
+
+\end{document}
