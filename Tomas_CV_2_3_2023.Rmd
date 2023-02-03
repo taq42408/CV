@@ -6,7 +6,7 @@ output:
 geometry: margin=1in
 
 title: "CV"
-author: Thomas Alexander Quezada
+author: Tomas Alexander Quezada
 
 jobtitle: "BioTech"
 address: "Cornell University Ithaca, Ny"
