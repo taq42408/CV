@@ -1,0 +1,28 @@
+---
+output: 
+  pdf_document:
+    latex_engine: pdflatex
+    template:~/Dropbox/miscelanea/svm-r-markdown-templates/svm-latex-cv.tex
+geometry: margin=1in
+
+title: "CV"
+
+author: Tomas Alexander Quezada
+
+jobtitle: "BioTech"
+address: "Cornell University Ithaca, Ny"
+fontawesome: yes
+email: guinness@consumer-care.net
+# github: svmiller
+phone: "956-286-1830"
+web: guinness.com
+updated: no
+
+keywords: R Markdown, academic CV, template
+
+fontfamily: mathpazo
+fontfamilyoptions: sc, osf
+fontsize: 11pt
+linkcolor: blue
+urlcolor: blue
+---
