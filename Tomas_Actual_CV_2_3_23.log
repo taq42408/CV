@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.6)  8 FEB 2023 09:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.8)  8 FEB 2023 10:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Tomas_Actual_CV_2_3_23.tex
 (./Tomas_Actual_CV_2_3_23.tex
 LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-02-02> (/Users/oropeloppel/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
+L3 programming layer <2023-02-07> (/Users/oropeloppel/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
 (/Users/oropeloppel/Library/TinyTeX/texmf-dist/tex/latex/base/size11.clo
 File: size11.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
@@ -687,10 +687,10 @@ Package rerunfilecheck Info: File `Tomas_Actual_CV_2_3_23.out' has not changed.
 (rerunfilecheck)             Checksum: 4026864BF41AD2945F5863110A13AEB0;744.
  ) 
 Here is how much of TeX's memory you used:
- 24107 strings out of 478024
- 448028 string characters out of 5838953
+ 24107 strings out of 477989
+ 448028 string characters out of 5838218
  1858346 words of memory out of 5000000
- 43803 multiletter control sequences out of 15000+600000
+ 43838 multiletter control sequences out of 15000+600000
  546159 words of font info for 82 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  117i,11n,118p,1034b,438s stack positions out of 10000i,1000n,20000p,200000b,200000s
