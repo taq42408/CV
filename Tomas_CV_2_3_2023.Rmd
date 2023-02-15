@@ -1,9 +1,0 @@
----
-
-author: Tomas Alexander Quezada
-jobtitle: "BioTech"
-address: "Cornell University Ithaca, Ny"
-fontawesome: yes
-phone: "956-286-1830"
----
-
