@@ -1,6 +1,6 @@
 ---
-title: "Nick Strayer's CV"
-author: Nick Strayer
+title: "Tomas Quezada's CV"
+author: Tomas Quezada
 date: "`r Sys.Date()`"
 params:
   pdf_mode:
@@ -22,7 +22,7 @@ source("cv_printing_functions.r")
 
 # Read in all data and initialize a CV printer object
 CV <- create_CV_object(
-  data_location = "https://docs.google.com/spreadsheets/d/14MQICF2F8-vf8CKPF1m4lyGKO6_thG-4aSwat1e2TWc",  
+  data_location = "https://docs.google.com/spreadsheets/d/1bkbg-uN_nql7AX10Nu-1KjIRsIKX9jn0lpUeVIXz8W4/edit#gid=1730172225",  
   pdf_mode = params$pdf_mode
 )
 
@@ -54,9 +54,9 @@ datadrivencv::build_network_logo(CV$entries_data)
 
 ```{r}
 if(params$pdf_mode){
-  cat("View this CV online with links at _nickstrayer.me/cv/_")
+  cat("View this CV online with links at _/Users/oropeloppel/Desktop/CV_")
 } else {
-  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/nstrayer/cv/raw/master/strayer_cv.pdf)")
+  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](/Users/oropeloppel/Desktop/CV)")
 }
 ```
 
@@ -83,7 +83,7 @@ Disclaimer {#disclaimer}
 
 Made with the R package [**pagedown**](https://github.com/rstudio/pagedown). 
 
-The source code is available [on github.com/nstrayer/cv](https://github.com/nstrayer/cv).
+The source code is available [on github.com/nstrayer/cv](/Users/oropeloppel/Desktop/CV).
 
 Last updated on `r Sys.Date()`.
 
@@ -92,7 +92,7 @@ Last updated on `r Sys.Date()`.
 Main
 ================================================================================
 
-Nick Strayer {#title}
+Tomas Quezada {#title}
 --------------------------------------------------------------------------------
 
 ```{r}
