@@ -10,7 +10,7 @@ datadrivencv::use_datadriven_cv(
   data_location = "https://docs.google.com/spreadsheets/d/1bkbg-uN_nql7AX10Nu-1KjIRsIKX9jn0lpUeVIXz8W4/edit#gid=1730172225",
   pdf_location = "/Users/oropeloppel/Desktop/CV",
   html_location = "/Users/oropeloppel/Desktop/CV",
-  source_location = "https://github.com/nstrayer/cv"
+  source_location = "/Users/oropeloppel/Desktop/CV"
 )
 ```
 
