@@ -151,5 +151,12 @@ CV %<>% print_text_block('teaching_experience_aside')
 CV %<>% print_section('teaching_positions')
 ```
 
+Wildlife Experience {data-icon=laptop}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('wildlife_positions')
+```
+
 
 
