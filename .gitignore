@@ -1,5 +1,18 @@
+# Generated files
+*.html
+*.pdf
+*.log
+*.aux
+*.out
+
+# R files
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
-.secrets
+
+# CV outputs
+cv.html
+cv.pdf
+resume.html
+resume.pdf
